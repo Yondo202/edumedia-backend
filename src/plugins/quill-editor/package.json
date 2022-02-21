@@ -1,0 +1,27 @@
+{
+  "name": "quill-editor",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "quill-editor",
+    "description": "Description of quill-editor plugin",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "quill-image-resize-module-react": "^3.0.0",
+    "react-quill": "^1.3.5"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x. <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

@@ -28,8 +28,18 @@
     "body": {
       "type": "richtext"
     },
-    "test": {
-      "type": "richtext"
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "position": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::position.position"
+    },
+    "count": {
+      "type": "biginteger"
     }
   }
 }

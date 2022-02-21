@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_settings_submenus",
+  "info": {
+    "displayName": "submenu",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
