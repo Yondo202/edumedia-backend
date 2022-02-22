@@ -36,6 +36,15 @@
       "type": "component",
       "repeatable": true,
       "component": "settings.menu"
+    },
+    "bunnerTop": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

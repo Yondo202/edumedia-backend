@@ -40,6 +40,18 @@
     },
     "count": {
       "type": "biginteger"
+    },
+    "admin_confirmed": {
+      "type": "boolean",
+      "default": false
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "read_range": {
+      "type": "biginteger"
     }
   }
 }
