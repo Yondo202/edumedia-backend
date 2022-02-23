@@ -39,7 +39,8 @@
       "target": "api::position.position"
     },
     "count": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "default": "0"
     },
     "admin_confirmed": {
       "type": "boolean",
