@@ -12,40 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "logoBig": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "logoSm": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "Menu": {
+    "menu": {
+      "displayName": "menu",
       "type": "component",
       "repeatable": true,
-      "component": "settings.menu"
+      "component": "menu.menu"
     },
-    "bunnerTop": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
+    "subMenu": {
+      "displayName": "subMenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.sub-menu"
     }
   }
 }

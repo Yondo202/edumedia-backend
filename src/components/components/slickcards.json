@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_slickcards",
+  "info": {
+    "displayName": "Slickcards",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    }
+  }
+}

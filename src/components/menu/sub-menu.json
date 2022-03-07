@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_sub_menus",
+  "info": {
+    "displayName": "subMenu",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "news": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
