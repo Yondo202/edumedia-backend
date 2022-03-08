@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_reuse_top_bunners",
+  "info": {
+    "displayName": "TopBunner",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

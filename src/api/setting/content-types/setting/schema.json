@@ -23,6 +23,40 @@
       "type": "component",
       "repeatable": true,
       "component": "menu.sub-menu"
+    },
+    "logoBig": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "logoSm": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "copyright": {
+      "type": "text"
+    },
+    "Social_Links": {
+      "displayName": "SocialLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuse.social-links"
+    },
+    "TopBunner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuse.top-bunner"
     }
   }
 }

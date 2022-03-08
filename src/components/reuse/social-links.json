@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_reuse_social_links",
+  "info": {
+    "displayName": "SocialLinks",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
