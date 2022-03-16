@@ -11,6 +11,7 @@ function populateAttribute({ components }) {
   return { populate: "*" };
 }
 
+
 const getPopulateFromSchema = function (schema) {
   return Object.keys(schema.attributes).reduce((currentValue, current) => {
     const attribute = schema.attributes[current];
