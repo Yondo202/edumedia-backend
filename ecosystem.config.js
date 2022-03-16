@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "server",
+      name: "edumedia-server",
       script: "npm",
       args: "start",
       instance_var: "INSTANCE_ID",
